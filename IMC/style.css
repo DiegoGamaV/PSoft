@@ -1,0 +1,31 @@
+* {
+    font-size: 24px;
+}
+
+#imc_app {
+    display: grid;
+    grid-template-columns: min-content 1fr 1fr;
+    grid-template-rows: min-content 1fr 1fr 1fr;
+}
+
+#show {
+    font-size: 50px;
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+#classificacao {
+    font-size: 50px;
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+.input_area {
+    grid-column: 2/4;
+}
+
+.label {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+}
